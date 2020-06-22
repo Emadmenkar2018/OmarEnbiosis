@@ -1,0 +1,141 @@
+.nav {
+    background-color: #f7f8fa;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #f7f8fa;
+}
+
+.nav > a {
+    outline: none;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.age-tab, .range-tab {
+    width: 50%;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #95989e;
+}
+
+.tab-content {
+    height: calc(100% - 44px);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #258ecd;
+    font-weight: bold;
+}
+
+.tab-pane {
+    height: 100%;
+}
+
+/********* micro range section **********/
+.micro-range {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.micro-range .my-range {
+    width: 170px;
+    height: 170px;
+    border: 1px solid #e6e9f0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+.my-range .my-range-value {
+    font-size: 2.2rem;
+    color: #95989e;
+    margin-bottom: 20px;
+}
+
+.my-range .my-range-title {
+    font-size: 1.4rem;
+}
+
+/********* micro age section **********/
+.my-age {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #e6e9f0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.3em;
+}
+
+.my-age .my-age-title {
+    color: #95989e;
+    width: 100px;
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.4rem;
+}
+
+.my-age .my-age-value {
+    color: #fe7a6e;
+    font-size: 2.2rem;
+}
+
+@media (max-width: 1440px) {
+    .nav > a {
+        font-size: 0.9rem;
+    }
+
+    .age-tab, .range-tab {
+        width: unset;
+        flex: 1 1 auto;
+    }
+
+    .micro-range .my-range, .my-age {
+        width: 150px;
+        height: 150px;
+    }
+
+    .my-age .my-age-title {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .micro-test-card {
+        width: 49% !important;
+    }
+
+    .nav > a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav > a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .micro-test-card {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav > a {
+        font-size: 0.8rem;
+    }
+}

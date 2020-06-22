@@ -1,0 +1,25 @@
+.setting-body {
+    padding-top: 0;
+}
+
+.setting-body > hr {
+    margin: 0 0 10px 0;
+}
+
+.setting-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.switch-label {
+    display: flex;
+}
+
+.switch-status {
+    margin-right: 5px;
+}
+
+.react-switch-bg, .react-switch-handle {
+    border-radius: 5px !important;
+}

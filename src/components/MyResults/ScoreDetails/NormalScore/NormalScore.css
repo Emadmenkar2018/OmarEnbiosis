@@ -1,0 +1,6 @@
+.status-icon {
+    width: 45px;
+    height: 35px;
+    background: url('../../../../static/images/Icons/arrow-head.png') no-repeat center center;
+    background-size: contain;
+}

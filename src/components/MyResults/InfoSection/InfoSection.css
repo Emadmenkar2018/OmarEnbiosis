@@ -1,0 +1,17 @@
+.info-wrapper {
+    margin-bottom: 20px;
+}
+
+.info-head {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info-head .info-title {
+    font-weight: bold;
+    align-self: center;
+}
+
+.info-head hr {
+    border-top: 1px solid #e9ecf0;
+}

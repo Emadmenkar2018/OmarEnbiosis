@@ -1,0 +1,25 @@
+.score-content .score-item {
+    width: 380px;
+    margin-bottom: 10px;
+    background-color: #f4f6f9;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.score-item .score-icon {
+    margin: 0 15px 0 10px;
+}
+
+@media (max-width: 1600px) {
+    .score-content .score-item {
+        width: 300px;
+    }
+
+    .score-item .score-head {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,38 @@
+.profile {
+    border: 1px solid #e6e9f0;
+    border-radius: 10px;
+    width: 220px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: #a5a7ac;
+    line-height: 1.2em;
+    margin: 10px 20px 10px 0;
+}
+
+.profile-title {
+    text-align: center;
+    padding: 5px 0 10px;
+    text-transform: capitalize;
+}
+
+.CircularProgressbar {
+    width: 160px !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    transition: stroke-dashoffset 1s ease-out !important;
+}
+
+.CircularProgressbar-trail {
+    stroke-dasharray: 0, 4px !important;
+}
+
+@media (max-width: 566px) {
+    .profile {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+.PDF-Modal {
+    position: absolute;
+    outline: none;
+    top: calc(50% - 20vh);
+    left: calc(50% - 30%);
+    width: 60%;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.pdf-download-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.pdf-btn {
+    background-color: #258ecd;
+    color: white;
+    width: 350px;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.2s all linear;
+    margin: 15px 0 10px 0;
+}
+
+.pdf-btn:hover {
+    background-color: #2ca6f1;
+}
+
+.report-modal-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.2);
+}

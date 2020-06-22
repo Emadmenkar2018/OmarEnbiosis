@@ -1,0 +1,28 @@
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+
+.next-button, .prev-button {
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    transition: 0.2s all linear;
+    opacity: 0;
+}
+
+.prev-button:hover {
+    -webkit-box-shadow: inset 153px 0px 65px -184px rgba(94,94,94,0.75);
+    -moz-box-shadow: inset 153px 0px 65px -184px rgba(94,94,94,0.75);
+    box-shadow: inset 153px 0px 65px -184px rgba(94,94,94,0.75);
+}
+
+.next-button:hover {
+    -webkit-box-shadow: inset -153px 0px 65px -184px rgba(94,94,94,0.75);
+    -moz-box-shadow: inset -153px 0px 65px -184px rgba(94,94,94,0.75);
+    box-shadow: inset -153px 0px 65px -184px rgba(94,94,94,0.75);
+}

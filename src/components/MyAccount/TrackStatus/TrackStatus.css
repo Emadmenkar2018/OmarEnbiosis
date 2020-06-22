@@ -1,0 +1,17 @@
+.track-status {
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+    margin-bottom: 5px;
+}
+
+.track-status .success-icon {
+    width: 30px;
+    height: 30px;
+    background: url('../../../static/images/Icons/check-mark.png');
+    margin-right: 6px;
+}
+
+.track-status {
+    font-size: 0.9rem;
+}

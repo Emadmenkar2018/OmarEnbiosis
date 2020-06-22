@@ -1,0 +1,28 @@
+/**************** question control buttons ****************/
+.question-control-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px;
+}
+
+.question-control-btns > button {
+    margin: 0 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #258ecd;
+    color: white;
+    padding: 5px 0;
+    width: 50%;
+    height: 40px;
+}
+
+.question-control-btns > button .left-arrow {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 600px) {
+    .question-control-btns > button {
+        margin: 0 5px;
+    }
+}

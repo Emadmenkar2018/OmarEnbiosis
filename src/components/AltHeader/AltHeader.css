@@ -1,0 +1,40 @@
+.details-head {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    color: #258ecd;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 2px 15px;
+    margin-bottom: 20px;
+}
+
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text > small {
+    color: #95989e;
+    font-weight: bold;
+}
+
+.head-text hr {
+    width: 150px;
+    border-top: 1px solid #d3dae6;
+    margin: 3px 0;
+}
+
+.head-text .head-title {
+    color: #258ecd;
+    font-size: 1.2rem;
+}

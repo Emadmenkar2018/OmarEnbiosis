@@ -1,0 +1,29 @@
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.cont-1, .cont-2 {
+    width: 25%;
+}
+
+@media (max-width: 1750px) {
+    .cont-1, .cont-2 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 920px) {
+    .cont-1, .cont-2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 770px) {
+    .cont-1, .cont-2 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

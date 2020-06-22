@@ -1,0 +1,115 @@
+.l-background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../static/images/login.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+.l-content {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.l-form {
+    width: 450px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    background: url('../../static/images/logo.png') no-repeat center center;
+    background-size: contain;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+}
+
+.l-footer, .l-footer a {
+    color: rgb(122, 122, 122);
+}
+
+.l-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-footer a {
+    text-decoration: underline;
+    transition: 0.2s all linear;
+}
+
+.l-footer .kit-register {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #f28770;
+    text-decoration: underline;
+    transition: 0.2s all linear;
+}
+
+.l-footer button.change-lang-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: inherit;
+}
+
+@media (max-width: 1440px) {
+    .l-content {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 1300px) {
+    .l-form {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1270px) and (max-height: 700px) {
+    .l-content {
+        height: 85vh;
+    }
+}
+
+@media (max-width: 820px) {
+    .l-content {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .l-form {
+        width: 90%;
+    }
+}
+
+@media (max-device-width: 823px) and (max-device-height: 414px) {
+    .l-content {
+        display: inline-block;
+        position: fixed;
+        overflow: auto;
+    }
+
+    .l-form {
+        margin: 0 auto;
+    }
+}

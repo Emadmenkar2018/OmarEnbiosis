@@ -1,0 +1,73 @@
+/************** food styles ****************/
+.foods-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-img-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.food-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.home-food-title {
+    font-size: 1.2rem;
+    color: #565d68;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.err-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fe796d;
+}
+
+@media (max-width: 1440px) {
+    .food-img-container {
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .all-foods-card {
+        width: 49% !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .all-foods-card {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .food-img-container {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .home-food-title {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,558 @@
+{
+    "email-input": [
+        "E-Posta Adresi",
+        "Email Adress"
+    ],
+    "pass-input": [
+        "Şifreniz",
+        "Password"
+    ],
+    "login-button": [
+        "Giriş Yap",
+        "Login"
+    ],
+    "forget-pass": [
+        "Şifrenizi Unuttunuz Mu?",
+        "Forgot Your Password?"
+    ],
+    "kit-question": [
+        "Üye Misiniz?",
+        "New to Enbiosis?"
+    ],
+    "kit-register": [
+        "Kit Kaydet",
+        "Register Your Kit"
+    ],
+    "change-lang": [
+        "For ${name} click here",
+        "${name} için tıklayın"
+    ],
+    "reset-btn": [
+        "Şifreyi Yenile",
+        "Reset Password"
+    ],
+
+
+    "memb-question": [
+        "Daha önce bir kit kaydettiniz mi ?",
+        "Have you registered a kit before?"
+    ],
+    "memb-btn-no": [
+        "HAYIR, DAHA ÖNCE BİR KİT KAYDETMEDİM",
+        "NO, I HAVE NOT REGISTERED A KIT"
+    ],
+    "memb-btn-yes": [
+        "EVET, ÖNCEDEN  BİR  KİT KAYDETTİM",
+        "YES, I HAVE REGISTERED A KIT BEFORE"
+    ],
+
+
+    "ver-title": [
+        "Lütfen gönderdiğimiz doğrulama kodu için e-postanızı kontrol edin.",
+        "Please check your email for the verification code we sent."
+    ],
+    "ver-input": [
+        "Kodu Giriniz...",
+        "Enter Code..."
+    ],
+    "ver-btn": [
+        "Doğrula",
+        "Verify"
+    ],
+    "resent-btn": [
+        "Yeniden Gönder",
+        "Resend"
+    ],
+
+
+    "reg-kit-title": [
+        "Kitinizi Kaydedin",
+        "Register Your Kit"
+    ],
+    "reg-kit-desc": [
+        "Kutunun içerisinde yer alan tüpün üzerinde yazan kodu giriniz.",
+        "Enter the code written on the tube in the box."
+    ],
+    "kit-code-input": [
+        "Kit Kodunuz",
+        "Your Kit Code"
+    ],
+    "next-btn": [
+        "İleri",
+        "Next"
+    ],
+    "pass-re-input": [
+        "Şifreniz (Tekrar)",
+        "Password (Repeat)"
+    ],
+    "reg-kit-btn": [
+        "Kit Kaydet",
+        "Register Kit"
+    ],
+    "name-input": [
+        "Adınız",
+        "Name"
+    ],
+    "surname-input": [
+        "Soyadınız",
+        "Surname"
+    ],
+    "email-re-input": [
+        "E-Posta Adresiniz (Tekrar)",
+        "Email Address (Repeat)"
+    ],
+    "tel-input": [
+        "Telefon Numaranız",
+        "Phone Number"
+    ],
+    "gender-male": [
+        "Erkek",
+        "Male"
+    ],
+    "gender-female": [
+        "Kadın",
+        "Female"
+    ],
+    "email-err": [
+        "Girdiğiniz e-postalar eşleşmelidir.",
+        "Emails must match."
+    ],
+    "pass-err": [
+        "Girdiğiniz şifreler eşleşmelidir.",
+        "Passwords must match."
+    ],
+    "radio-err": [
+        "Lütfen bir seçenek işaretleyiniz.",
+        "Please select an option."
+    ],
+    "date-year-err": [
+        "Lütfen geçerli bir yıl giriniz.",
+        "Please enter a valid year."
+    ],
+    "date-err": [
+        "GG - AA - YYYY şeklinde giriş yapınız.",
+        "Enter date as DD - MM - YYYY."
+    ],
+    "term-checkbox": [
+        "Okudum, onayladım ve kabul ediyorum.",
+        "I have read, approved and accepted."
+    ],
+    "create-btn": [
+        "Yeni Hesap Oluştur",
+        "Create New Account"
+    ],
+
+
+    "logout-btn": [
+        "Çıkış Yap",
+        "Logout"
+    ],
+    "lang-btn": [
+        "Dil",
+        "Language"
+    ],
+    "analysis-btn": [
+        "Analizler",
+        "Analyzes"
+    ],
+
+
+    "home-btn": [
+        "Anasayfa",
+        "Homepage"
+    ],
+    "account-btn": [
+        "Hesabım",
+        "Account"
+    ],
+    "food-btn": [
+        "Besin Skorları",
+        "Nutrient Scores"
+    ],
+    "result-btn": [
+        "Analiz Sonuçları",
+        "Analysis Results"
+    ],
+    "gut-btn": [
+        "Bağırsak Skorlarım",
+        "My Gut Scores"
+    ],
+    "imp-btn": [
+        "Önemli Bakteriler",
+        "Important Bacteria"
+    ],
+    "tax-btn": [
+        "Taksonomik Analiz",
+        "Taxonomic Analysis"
+    ],
+    "close-btn": [
+        "Yakın Profiller",
+        "Close Profiles"
+    ],
+    "sample-btn": [
+        "Analiz Örneğim",
+        "My Sample"
+    ],
+    "res-btn": [
+        "Kaynaklar",
+        "Resources"
+    ],
+    "mF-smallText": [
+        "Besin Skorları",
+        "Nutrient Scores"
+    ],
+    "90-day": [
+        "90 günü tamamladınız!",
+        "You've completed 90 days!"
+    ],
+    "90-day-desc": [
+        "Mikrobiyomunuzda nelerin değiştiğini ve hangi yeni gıdaların mikrobiyomunuz için yararlı olup olmadığını öğrenin.",
+        "Find out what's changed and what new foods may be beneficial or not for your microbiome."
+    ],
+    "order-kit": [
+        "Yeni kit sipariş et",
+        "Order Next Kit"
+    ],
+    
+    
+    "welcome-title": [
+        "Merhaba, Hoşgeldin <strong>${firstName}</strong>!",
+        "Hi, Welcome <strong>${firstName}</strong>!"
+    ],
+    "cP-main-title": [
+        "Mikrobiyom profili sizin profilinize benzeyen insanlar",
+        "People whose microbiome profile looks like your profile"
+    ],
+    "iyi-tab-title": [
+        "İyi Skorlarım",
+        "Good Scores"
+    ],
+    "orta-tab-title": [
+        "Orta Skorlarım",
+        "Average Scores"
+    ],
+    "kotu-tab-title": [
+        "Kötü Skorlarım",
+        "Bad Scores"
+    ],
+    "read-more": [
+        "Daha Fazla",
+        "Read More"
+    ],
+    "scores-card-err": [
+        "Skor Bulunmadı",
+        "No Scores Found"
+    ],
+    "foods-card-err": [
+        "Besin Bulunmadı",
+        "No Nutrients Found"
+    ],
+
+
+    "mA-smallText": [
+        "Hesabım",
+        "My Account"
+    ],
+    "mA-pText": [
+        "Merhaba",
+        "Hi"
+    ],
+    "mA-track": [
+        "Örnek Takibi",
+        "Sample Tracking"
+    ],
+    "mA-register-date": [
+        "Kayıt Tarihi",
+        "Register Date"
+    ],
+    "mA-status": [
+        "Son Durum",
+        "Latest Status"
+    ],
+    "mA-intro-btn": [
+        "ENBIOSIS Önerilerinize Giriş",
+        "Intro to ENBIOSIS Suggestions"
+    ],
+    "mA-sample": [
+        "ANALİZ ÖRNEĞİM",
+        "MY SAMPLE"
+    ],
+    "mA-sugg": [
+        "Besin Önerileri",
+        "Nutrient Suggestions"
+    ],
+    "intro-smallText": [
+        "Besin Skorları",
+        "Nutrient Scores"
+    ],
+    "intro-pText": [
+        "Besin Önerileri",
+        "Nutrient Suggestions"
+    ],
+    "intro-desc": [
+        "ENBIOSIS Önerilerinize Giriş",
+        "Introduction to Your ENBIOSIS Suggestions"
+    ],
+    "mA-setting": [
+        "Ayarlar",
+        "Settings"
+    ],
+    "mA-diet-set": [
+        "Diyet Tercihi",
+        "Diet Preference"
+    ],
+    "mA-veg": [
+        "Vejeteryan",
+        "Vegetarian"
+    ],
+    "mA-yes": [
+        "Evet",
+        "Yes"
+    ],
+    "mA-no": [
+        "Hayır",
+        "No"
+    ],
+    "mA-survey-warn-title": [
+        "Merhaba <strong>${name}</strong>, analiz sonuçlarının çıkması için kullanıcı anketini doldurman gerekiyor.",
+        "Hi <strong>${name}</strong>, you need to fill in the user survey to get the results of the analysis."
+    ],
+    "mA-survey-warn-btn": [
+        "Anketi Doldur",
+        "Fill Survey"
+    ],
+    "mA-survey": [
+        "Anket",
+        "Survey"
+    ],
+    "mA-text-input": [
+        "Cevabınız...",
+        "Your Answer..."
+    ],
+    "mA-number-input": [
+        "ör: 125",
+        "ex: 125"
+    ],
+    "mA-date-input": [
+        "ör: 24-10-1980",
+        "ex: 24-10-1980"
+    ],
+    "mA-checkbox-err": [
+        "Lütfen en az bir seçenek işaretleyiniz.",
+        "Please select at least one option."
+    ],
+    "mA-empty-err": [
+        "Lütfen boş alanı doldurunuz.",
+        "Please fill in the empty field."
+    ],
+    "mA-prev-title": [
+        "Geri",
+        "Back"
+    ],
+    "mA-next-title": [
+        "Devam",
+        "Next"
+    ],
+    "mA-finish-title": [
+        "Bitiş",
+        "Finish"
+    ],
+    "mA-share": [
+        "Raporumu Paylaş",
+        "Share My Report"
+    ],
+    "mA-share-model-title": [
+        "Raporumu <strong>Paylaş</strong>",
+        "<strong>Share</strong> My Report"
+    ],
+    "mA-share-model-input": [
+        "E-Posta Adresiniz...",
+        "Your Email Address..."
+    ],
+    "mA-share-model-btn": [
+        "Gönder",
+        "Send"
+    ],
+    "mA-share-model-warn": [
+        "ENBIOSIS raporunuzu paylaşmayı seçmek, kişisel sağlık kayıtlarınızı, verilerinizi ifşa etmeyi ve tüm sorumluluğu kabul etmeyi gönüllü olarak seçtiğiniz anlamına gelir. Sistemimiz, kişisel verilerinizi uygulamamızın güvenli alanında korur. Kişisel veriler, kayıt bilgilerinizi, örnek verilerinizi, kendi bildirdiğiniz bilgileri, ENBIOSIS Gizlilik Politikası tarafından tanımlanan diğer toplanan kişisel bilgileri içerir.",
+        "Choosing to share your ENBIOSIS report means that you voluntarily choose to disclose your personal health records, data and accept full responsibility. Our system protects your personal data in the secure area of ​​our application. Personal data includes your registration information, sample data, information you have reported, and other collected personal information as defined by the ENBIOSIS Privacy Policy."
+    ],
+    "mA-order": [
+        "Kit Siparişi ver",
+        "Order Kit"
+    ],
+    "mA-register": [
+        "Kit Girişi yap",
+        "Register Kit"
+    ],
+
+
+    "filter": [
+        "FİLTRE",
+        "FILTER"
+    ],
+    "mF-good": [
+        "İyi",
+        "Good"
+    ],
+    "mF-average": [
+        "Orta",
+        "Middle"
+    ],
+    "mF-bad": [
+        "Kötü",
+        "Bad"
+    ],
+    "search": [
+        "Ara",
+        "Search"
+    ],
+    "food-not-found-err": [
+        "Eşleşen besin bulunamadı",
+        "No matching food found"
+    ],
+    "no-foods-err": [
+        "Besin bulunamadı",
+        "Food not found"
+    ],
+
+
+    "aS-smallText": [
+        "Analiz Sonuçlarım",
+        "My Results"
+    ],
+    "aS-pText": [
+        "Bağırsak Skorlarım",
+        "My Gut Scores"
+    ],
+    "aS-btn-title":[
+        "Analiz Sonuçları",
+        "Analysis Results"
+    ],
+    "aS-gut-title": [
+        "Bağırsak Skorları",
+        "Gut Scores"
+    ],
+    "aS-my-score-title": [
+        "Sizin Örneğiniz",
+        "Your Profile"
+    ],
+    "aS-score-key": [
+        "SKOR ANAHTARI",
+        "Score Key"
+    ],
+    "iM-smallText": [
+        "Analiz Sonuçlarım",
+        "My Results"
+    ],
+    "iM-pText": [
+        "Önemli Bakteriler",
+        "Important Bacteria"
+    ],
+    "tax-smallText": [
+        "Taksonomik Analiz",
+        "Taxonomic Analysis"
+    ],
+    "cP-smallText": [
+        "Yakın Profiller",
+        "Close Profiles"
+    ],
+    "cP-pText": [
+        "Mikrobiyom profili sizin profilinize benzeyen insanlar",
+        "People whose microbiome profile looks like your profile"
+    ],
+    "cP-desc": [
+        "Yapay zeka algoritmamız senin mikrobiyom profiline benzer mikrobiyoma sahip insanları inceledi ve sana en çok benzeyenlerin sağlık profillerini ortaya çıkardı. Bu oranlara bakarak kendi profilinle ilgili fikir sahibi olabilirsin.",
+        "Our artificial intelligence algorithm examined people with microbiomes similar to your microbiome profile and ran statistics on the lifestyle and health status of the people closest to your profile."
+    ],
+    "mS-smallText": [
+        "Analiz Sonuçlarım",
+        "My Results"
+    ],
+    "mS-pText": [
+        "Analiz Örneğim",
+        "My Sample"
+    ],
+    "mS-first-sec": [
+        "Müşteri Bilgileri",
+        "Customer Information"
+    ],
+    "cust-name": [
+        "Müşteri Adı",
+        "Cust. Name"
+    ],
+    "cust-gender": [
+        "Cinsiyet",
+        "Gender"
+    ],
+    "cust-birthdate": [
+        "Doğum Tarihi",
+        "Birthdate"
+    ],
+    "cust-email": [
+        "Müşteri E-postası",
+        "Cust. Email"
+    ],
+    "mS-second-sec": [
+        "Örnek Bilgileri",
+        "Sample Information"
+    ],
+    "test-name-lb": [
+        "Test Adı",
+        "Test Name"
+    ],
+    "test-name": [
+        "ENBIOSIS MİKROBİYOM ANALİZİ",
+        "ENBIOSIS MIKROBIOME ANALYSIS"
+    ],
+    "ordered-person": [
+        "Sipariş Veren Kişi",
+        "Ordering Person"
+    ],
+    "sample-soruce": [
+        "Örnek Kaynağı",
+        "Sample Source"
+    ],
+    "mS-shipped": [
+        "Kargoya Verildi",
+        "Shipped"
+    ],
+    "mS-received": [
+        "ENBIOSIS Tarafından Alındı",
+        "Received by ENBIOSIS"
+    ],
+    "mS-sent": [
+        "Laboratuvara Gönderildi",
+        "Sent to Lab"
+    ],
+    "mS-upload": [
+        "Sonuçlar Yüklendi",
+        "Results Uploaded"
+    ],
+    "mS-kit-code": [
+        "Kit Kod",
+        "Kit Code"
+    ],
+    "mS-third-sec": [
+        "Laboratuvar Bilgileri",
+        "Laboratory Information"
+    ],
+    "mS-contact": [
+        "Laboratuvar İletişim",
+        "Laboratory Contact"
+    ],
+
+
+    "res-smallText": [
+        "Kaynaklar",
+        "Resources"
+    ],
+    "res-pText": [
+        "Videolar",
+        "Videos"
+    ],
+    "res-desc": [
+        "Mikrobiyomunuz ve sağlığınızda oynadığı kritik rol hakkında daha fazla bilgi edinmek için izleyin",
+        "Watch to learn more about your microbiome and the critical role it plays in your health"
+    ]
+}

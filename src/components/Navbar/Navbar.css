@@ -1,0 +1,231 @@
+.top-navbar {
+    background-color: white;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav.top-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 300;
+}
+
+.navbar-brand-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar-toggler {
+    display: none;
+    background-color: transparent;
+    font-size: 1.25rem;;
+    cursor: pointer;
+    padding: 4px 12px;
+    line-height: 0.9em;
+    color: rgba(0,0,0,.5);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: .25rem;
+}
+
+.navbar-light .navbar-nav .nav-link, .top-navbar .dropbtn {
+    color: #565d68;
+    transition: 0.2s all linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover , nav .dropbtn:hover {
+    color: #131026;
+}
+
+.navbar-light .navbar-nav .nav-link.profile-name {
+    color: #131026;
+    font-weight: bold;
+    display: flex;
+}
+
+ul.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+button.logout, .dropbtn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.dropbtn .arrow-icon {
+    margin-left: 4px;
+    align-self: center;
+}
+
+.lang-arrow {
+    margin-top: 5px;
+}
+/* The container <div> - needed to position the dropdown content */
+.setting-dropdown {
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.setting-dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 165px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.2s all linear;
+}
+
+/* Links inside the dropdown */
+.setting-dropdown-content button {
+    display: block;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    text-align: left;
+    transition: 0.2s all linear;
+}
+
+/* Change color of dropdown links on hover */
+.setting-dropdown-content button:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+}
+
+.topnav-icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.settings-icon {
+    background: url('../../static/images/Icons/Menu-Icons/ayarlar-icon.png') no-repeat center center;
+    margin-right: 3px;
+}
+
+.logout-icon {
+    background: url('../../static/images/Icons/Menu-Icons/cikis-icon.png') no-repeat center center;
+}
+
+.nav-item .link-label {
+    padding-top: 6px;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    background: url('../../static/images/profile-img.jpg') no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin-right: 10px;
+}
+
+.profile-icon .profile-status {
+    height: 10px;
+    width: 10px;
+    background-color: #00febe;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.lang-btn {
+    height: 51px;
+}
+
+.lang-icon {
+    color: #fe796d;
+    margin: 0 6px 0 5px;
+    font-size: 1.7rem;
+    align-self: center;
+}
+
+.flag-icon {
+    margin: 0 10px;
+}
+
+@media (max-width: 1600px) {
+    .top-navbar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sidebar-toggler {
+        display: inline-block;
+    }
+
+    .navbar-brand {
+        width: 190px;
+    }
+}
+
+@media (max-width: 991px) {
+    .top-navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sidebar-toggler {
+        margin-left: 30px;
+    }
+
+    .navbar-brand {
+        width: 200px;
+        margin: 0px;
+    }
+
+    button.navbar-toggler {
+        margin-right: 30px;
+    }
+
+    ul.navbar-nav {
+        margin-right: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 20px;
+    }
+
+    .setting-dropdown-content {
+        position: relative;
+        box-shadow: none;
+        overflow: hidden;
+        opacity: 1;
+    }
+
+    .setting-dropdown-content button {
+        padding-left: 30px;
+    }
+
+    .setting-dropdown, button.logout, .setting-dropdown .dropbtn {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar-toggler, .sidebar-toggler {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px !important;
+    }
+
+    .sidebar-toggler {
+        margin-left: 10px;
+    }
+}

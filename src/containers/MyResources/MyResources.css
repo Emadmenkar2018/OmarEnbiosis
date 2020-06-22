@@ -1,0 +1,17 @@
+.res-desc {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 414px) and (max-height: 823px) {
+    .res-desc {
+        font-size: 1.1rem;
+    }
+}

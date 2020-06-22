@@ -1,0 +1,25 @@
+.micro-examples .micro-example {
+    display: flex;
+    margin: 10px 40px 10px 0;
+}
+
+.example-image-container {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #565d68;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.micro-examples .micro-example .example-image {
+    width: 35px;
+    height: 35px;
+}
+
+.micro-examples .micro-example .example-title {
+    align-self: center;
+}

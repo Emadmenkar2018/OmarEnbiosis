@@ -1,0 +1,32 @@
+.sample-date-dropdown {
+    position: relative;
+    width: 180px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.sample-dates-dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #fcfdfd;
+    font-size: 0.9rem;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.18s all linear;
+}
+
+.sample-date-dropdown .sample-dates-dropdown-content button {
+    display: block;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: left;
+    transition: 0.2s all linear;
+}
+
+.sample-date-dropdown .sample-dates-dropdown-content button:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+}

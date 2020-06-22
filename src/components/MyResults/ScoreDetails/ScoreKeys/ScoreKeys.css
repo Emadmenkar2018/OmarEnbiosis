@@ -1,0 +1,78 @@
+/*************************/
+.score-key-btn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #59c5d9;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 50px 0 15px;
+}
+
+.score-key-title {
+    color: #59c5d9;
+    font-size: 1.2rem;
+}
+
+.score-key-container {
+    color: #565d68;
+}
+
+.score-key-content {
+    margin: 30px 20px 10px;
+    border-top: 1px solid #e9ecf2;
+    display: flex;
+    position: relative;
+}
+
+.score-key-content > div {
+    flex: 1 1 200px;
+    padding: 20px 40px;
+    line-height: 1.4em;
+}
+
+.score-key-content-title {
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 200px);
+    width: 400px;
+    background-color: white;
+    color: #fe796d;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 !important;
+}
+
+.content-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.mid {
+    border-left: 1px solid #e9ecf2;
+    border-right: 1px solid #e9ecf2;
+}
+
+.score-key-desc {
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+@media (max-width: 850px) {
+    .score-key-title, .content-title, .score-key-content-title {
+        font-size: 1.1rem;
+    }
+    
+    .score-key-content-title {
+        position: static;
+        width: 100%;
+    }
+
+    .score-key-content {
+        display: inline-block;
+        border-top: none;
+    }
+
+    .score-key-desc {
+        font-size: 1rem;
+    }
+}

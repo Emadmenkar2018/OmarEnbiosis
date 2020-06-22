@@ -1,0 +1,32 @@
+.head {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.head .icon {
+    width: 60px;
+    height: 80px;
+}
+
+.head .text {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+    padding: 15px 0 15px 10px;
+}
+
+.head .text small {
+    font-weight: bold;
+    color: #258ecd;
+}
+
+.head .text hr {
+    width: 35px;
+    border-top: 1px solid #d3dae6;
+    margin: 3px 0;
+}
+
+.head .text .main-head {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}

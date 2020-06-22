@@ -1,0 +1,25 @@
+.track-vertical {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 12px !important;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 15px;
+    background: #f4f6f9;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.track-vertical .thumb-vertical {
+    position: relative;
+    display: block;
+    width: 50% !important;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #9da1a8;
+}
+
+.terms-body {
+    padding: 0 30px 20px 20px;
+}

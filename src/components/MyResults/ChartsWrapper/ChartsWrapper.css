@@ -1,0 +1,22 @@
+.charts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.charts-wrapper > div {
+    border: 1px solid #e6e9f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recharts-default-legend {
+    margin-bottom: 10px !important;
+}
+
+.recharts-default-legend > li {
+    margin: 0 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

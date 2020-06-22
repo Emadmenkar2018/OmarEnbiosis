@@ -1,0 +1,9 @@
+.food-menu-wrapper {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.filter-content {
+    padding-bottom: 10px;
+}

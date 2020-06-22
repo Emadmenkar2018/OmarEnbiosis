@@ -1,0 +1,20 @@
+.control-dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0 20px;
+}
+
+.control-dots .dot {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    background-color: #dadfe5;
+    cursor: pointer;
+}
+
+.control-dots .checked {
+    background-color: #fe685a;
+}

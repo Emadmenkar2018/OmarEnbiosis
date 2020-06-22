@@ -1,0 +1,13 @@
+.section-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e9ecf0;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin: 10px 0 15px;
+    cursor: pointer;
+}
+
+.section-title {
+    line-height: 1.3em;
+}

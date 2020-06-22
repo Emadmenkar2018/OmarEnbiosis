@@ -1,0 +1,38 @@
+.wel-head {
+    margin: 10px 0 20px;
+    font-size: 1.5rem;
+}
+
+.tabs-container {
+    margin-bottom: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-card {
+    background-color: white;
+    margin-bottom: 20px;
+    width: 32%;
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1440px) {
+    .tabs-container {
+        height: 250px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .tabs-container {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .tab-card {
+        height: 250px;
+    }
+}

@@ -1,0 +1,40 @@
+.my-score {
+    display: flex;
+}
+
+.score-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-status-icon {
+    width: 40px;
+    height: 35px;
+    background: url('../../../../static/images/Icons/arrow-head.png') no-repeat center center;
+    background-size: cover;
+    transform: rotate(180deg);
+    align-self: center;
+}
+
+.my-score .my-score-icon {
+    background: url('../../../../static/images/Icons/enjoy.png') no-repeat center center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.my-score-icon .score-value {
+    color: white;
+}

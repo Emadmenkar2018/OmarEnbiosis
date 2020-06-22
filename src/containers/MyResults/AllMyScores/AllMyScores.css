@@ -1,0 +1,40 @@
+.score .score-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.score-content .score-item {
+    width: 380px;
+    margin-bottom: 10px;
+    background-color: #f4f6f9;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.micro-test-btn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #9cd9e6;
+    border-radius: 10px;
+    color: #9cd9e6;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+@media (max-width: 1500px) {
+    .score-head .score-title {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .score-head .score-title {
+        width: 350px;
+    }
+}

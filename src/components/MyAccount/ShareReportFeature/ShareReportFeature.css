@@ -1,0 +1,121 @@
+.Modal {
+    position: absolute;
+    background-color: white;
+    outline: none;
+    top: calc(50% - 175px);
+    left: 20%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(28, 167, 231, 0.6);
+    z-index: 300;
+}
+
+.modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #565d68;
+}
+
+.modal-title {
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.share-rapor-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 15px;
+}
+
+.modal-email-input {
+    width: 50%;
+    border: 1px solid #c4ccd5;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    color: #565d68;
+    transition: 0.2s all linear;
+}
+
+.modal-email-input::placeholder {
+    color: #c4ccd5;
+}
+
+.modal-email-input:focus {
+    border-color: #59c5d9;
+    box-shadow: 0 0 0 0.2rem rgba(89, 197, 217, .25);
+}
+
+.share-btn {
+    background-color: #258ecd;
+    color: white;
+    width: 25%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.2s all linear;
+    margin: 15px 0 10px 0;
+}
+
+.share-btn:hover {
+    background-color: #2ca6f1;
+}
+
+.modal-desc {
+    margin-bottom: 30px;
+    padding: 0 40px;
+    text-align: center;
+    color: #c4ccd5;
+}
+
+@media (max-width: 1024px) {
+    .Modal {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 850px) {
+    .Modal {
+        width: 90%;
+        left: 5%;
+    }
+
+    .modal-email-input {
+        width: 70%;
+    }
+
+    .share-btn {
+        width: 35%;
+    }
+
+    .modal-desc {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .Modal {
+        top: calc(100% - 525px);
+    }
+
+    .modal-desc {
+        padding: 0 5px;
+        font-size: 0.9rem;
+    }
+}

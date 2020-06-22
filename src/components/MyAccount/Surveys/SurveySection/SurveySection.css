@@ -1,0 +1,27 @@
+.question-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e9ecf0;
+    border-radius: 15px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.question-icon {
+    width: 60px;
+    height: 60px;
+    background: url('../../../../static/images/Icons/quiz.png') no-repeat center center;
+    background-size: cover;
+    margin: 20px 0 10px;
+}
+
+.swipe-view {
+    width: 80%;
+}
+
+@media (max-width: 414px) {
+    .swipe-view {
+        width: 90%;
+    }
+}

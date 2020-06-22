@@ -1,0 +1,12 @@
+.filter-content .filter-list {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+}
+
+@media (max-width: 414px) {
+    .filter-content .filter-list {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,75 @@
+.sample-track-icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    border: 1px solid #565d68;
+    border-radius: 50%;
+    background: url('../../../static/images/Icons/shit.png') no-repeat center center;
+}
+
+.sample-track-title {
+    display: flex;
+    flex-direction: column;
+}
+
+div.register-date, div.sample-id {
+    font-size: 0.9rem;
+}
+
+.sample-track-body {
+    padding-top: 0;
+}
+
+.sample-track-body > hr {
+    margin: 0 0 10px 0;
+}
+
+.sample-track-content-head {
+    margin-left: 45px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+
+.sample-track-btns {
+    margin: 20px 45px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sample-track-btns > button {
+    width: 48%;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #59C5D9;
+    border-radius: 10px;
+    color: #59C5D9;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 1200px) {
+    .sample-track-btns > button {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 890px) {
+    .sample-track-btns > button {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sample-track-btns {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .sample-track-title {
+        font-size: 0.9rem;
+    }
+}
